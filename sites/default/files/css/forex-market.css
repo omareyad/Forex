@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,900');
+
+body {
+	
+}
+.container{
+  
+}
+
+#wrapper .herobanner .flexslider__wrapper{
+    min-height: 300px;  }
+
+#wrapper .forex-blocks{
+    padding-bottom: 102px;
+}
+.alltext{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+@media screen and (min-width:768.5px){
+    
+    .section {
+	height: 100vh;
+    line-height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #222222;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+    
+}
+@media screen and (max-width:768px){
+    
+    .section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #222222;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	font-size: 15px;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+    
+}
+.nav1 {
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 30px;
+	color: #222222;
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.nav1 a {
+	display: block;
+	width: 20px;
+	height: 18px;
+	border-radius: 50%;
+	padding-top: 2px;
+	text-align: center;
+	margin: 20px 0;
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	font-size: 12px;
+	color: #222222;
+}
+.nav1 a:visited {
+	color: inherit;
+}
+.nav1 a.active {
+	background: orange;
+}
+
+#sec1 {
+	background: #FFFFFF;
+}
+#sec2 {
+	background: #4B4E6D;
+	color: #FFFFFF;
+}
+#sec3 {
+	background: #84DCC6;
+}
+#sec4 {
+	background: #95A3B3;
+	color: #FFFFFF;
+}
+/* section anchors need display block so we can snap back up the page */
+#section-1, #section-2, #section-3, #section-4 {
+	display: block;
+}

@@ -1,0 +1,227 @@
+@font-face {
+  font-family: mystc;
+  src: url(../stc-font/STC-Regular.ttf);
+}
+
+
+@font-face{
+font-family:mystc2;    
+src: url(../stc-font/STC.otf);
+}
+@media screen and (max-width:768px){
+        .section6 iframe{
+           height: 800px;
+            }}
+        @media screen and (min-width:769px){
+            
+           .section6 iframe{
+           height: 750px;
+           
+            } 
+            .product-slider__content{
+                margin-top: 0px;
+            }
+            
+        }
+        @media screen and (min-width:1200px){
+            .section6 iframe{
+                height: 590px;
+               
+            }
+        }
+        
+        
+        @media (min-width: 992px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: right;
+}
+			.flexslider__content h2{
+
+			text-align: left;}			
+    
+    
+#wrapper .flex-caption {
+    
+    text-align: right;
+}
+    
+    #wrapper .flex-caption {
+    text-align: right;
+    
+    
+        }
+    
+    #wrapper .herobanner .flexslider__content h1, #wrapper .herobanner .flexslider__content h2, #wrapper .herobanner .flexslider__content .herobanner__title {
+    
+    text-align: right;
+     }
+        }
+        
+        
+        
+        
+@media (max-width: 767px) and (min-width: 480px){
+#wrapper .advantages__media {
+    margin-right: 9%;
+    min-width: 80%;
+    }}
+        
+        
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: right;
+}
+        
+        
+        #wrapper.toggled .sidebar-wrapper{
+            left: 0;
+        }
+        .sidebar-wrapper{
+
+        left: -320px;
+        right: 0;
+        }
+        
+        @media (min-width: 992px){
+#wrapper .advantages__articles {
+    padding-left: 0px;
+    margin-top: 0;
+            }}
+        
+        
+        @media (min-width: 640px){
+#wrapper .education-video__screen img {
+    margin-left: 0px;
+            }}
+        
+        @media (min-width: 480px){
+#wrapper .education-video__screen img {
+    margin-right: 0px;
+            }}
+        
+      
+        
+
+
+
+.flexslider__content h2 ,.flexslider__content h1{
+    font-family:mystc; 
+}
+.flexslider__content p{
+   font-family:mystc2;
+}
+.nav{
+   font-family:mystc2;
+}
+.block1 label, .block3 label{
+   font-family:mystc2;
+}
+.top-primary-bar{
+   font-family:mystc2;
+}
+#wrapper .usp-block__description h4{
+    
+}
+.usp-block__description h4{
+    font-family:mystc2;
+}
+.forex-blocks__header h2{
+     font-family:mystc;
+    font-size: 20px;
+    line-height: 40px;
+}
+.forex-blocks__content ul li{
+   font-family:mystc2;
+    direction: rtl;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-family:mystc;
+    font-size: 1.5rem;
+}
+.panel , .panel li, .downloadmt4{
+    direction: rtl;
+   font-family:mystc2;
+}
+
+.text-left{
+text-align: right!important;
+}
+.navbar-inner{
+   font-family:mystc2;
+}
+.new-button_for-hero-slider,.content-home1 h1,.content-home1 h2{
+   font-family:mystc2;
+}
+body{
+ font-family:mystc;  
+}
+
+
+.box-menu ul li a{
+    font-size: 13px;
+    font-weight: 300;
+}
+.cfdstext h3{
+    font-family:mystc;
+}
+.cfdstext{
+    direction: rtl;
+}
+.footer-menu h6{
+     font-family:mystc;
+}
+
+.mobile-why2 ul{
+    text-align: right;
+    margin-right: 20px;
+   font-family:mystc2; 
+}
+.mobile-why1 , .prem , .prem2{
+   font-family:mystc2; 
+}
+.title-learn h3 , .learncontentbox h3{
+   font-family:mystc2;
+    color: black;
+    font-size: 30px;
+    direction: rtl;
+    text-align: right;
+    
+}
+button.learn-more{
+    float: right;
+    direction: rtl;
+}
+.card-group .card h3{
+   
+    margin-right: 23px;
+}
+
+.card-group .card:hover p{
+    direction: rtl;
+}
+#sec1 p ,h3{
+    direction: rtl;
+    text-align: right;
+    font-family:mystc2;
+    
+}
+.table tr , .table td {
+    font-family: mystc2;
+}
+h4{
+      font-family: mystc2;
+}
+.panel p{
+        direction: rtl;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 18px;
+    font-family: mystc;
+}
+.navbar-nav .extra>ul.extra li a{
+font-family: mystc2;
+}
+.boxhome3 h2 , .boxhome3 p{
+    font-family: mystc;
+    direction: rtl;
+} 
+

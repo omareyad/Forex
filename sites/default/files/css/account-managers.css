@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+@font-face {
+  font-family: mystc;
+  src: url(../stc-font/STC-Regular.ttf);
+}
+
+
+@media (min-width: 768px){
+#wrapper .forex-blocks {
+padding-bottom: 102px;    }}
+ #wrapper .herobanner .flexslider__wrapper{
+      min-height: 300px;  
+    }
+
+.alltext{
+    padding: 25vmin 0px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.alltext .container{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+.section-1 .row .col-md-6 .pray img:hover{
+     filter:none;
+}
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+    filter: brightness(0.5);
+    transition: 0.7s ease-in-out;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: relative;
+  top: 7vmin;
+    text-align: center;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 0vmin 0vmin 8vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 17px;
+  color: black;
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+    }
+    .section-1 .row .col-md-6 .panel{
+        margin-top: 10vmin;
+    }
+
+}
+.pt-4{
+	font-weight: 700;
+    line-height: 30px;
+	margin-right: 30px;
+}
+
+.h1fx{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 2.3rem;
+    font-family: mystc;
+    color: black;}

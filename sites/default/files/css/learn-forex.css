@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+@media (min-width: 992px){
+    #wrapper .herobanner .flexslider__wrapper{
+      min-height: 300px;  
+    }}
+
+
+.cards{
+    padding: 5vmin 0px;
+    padding-bottom: 20vmin;
+    
+}
+
+
+body a {
+  text-decoration: none;
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.card-group .card {
+  background: #fff;
+  width: 330px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 14px 19px 58px 0 rgba(2, 2, 2, 0.25);
+  position: relative;
+  cursor: pointer;
+    border-radius: 10px;
+}
+.card-group .card:hover p {
+  font-size: 1.8rem;
+    margin: 10px;
+    font-family: mystc;
+}
+
+.card-group .card:hover .card-badge {
+  top: 150px;
+}
+.card-group .card .card-badge {
+  width: 4em;
+  height: 4em;
+  background: #ac832d;
+  border-radius: 50%;
+  position: absolute;
+  transition: .3s ease-in;
+  left: 300px;
+  top: 30px;
+  box-shadow: 5px 3px 5px 0 rgba(0, 0, 0, 0.4);
+}
+.card-group .card .card-image {
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+    background-position: 50%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.card-group .card .img1{
+    background-image: url('../learn-pic/one.jpg');
+}
+
+.card-group .card .img2{
+    background-image: url(../learn-pic/two2.png);
+}
+
+.card-group .card .img3{
+    background-image: url(../learn-pic/three.jpg);
+}
+
+.card-group .card .img4{
+    background-image: url(../learn-pic/four.jpg);
+}
+
+.card-group .card .img5{
+    background-image: url(../learn-pic/five.jpg);
+}
+
+.card-group .card .img6{
+    background-image: url(../learn-pic/six.jpg);
+}
+
+.card-group .card .img7{
+    background-image: url(../learn-pic/seven.jpg);
+}
+
+.card-group .card .img8{
+    background-image: url(../learn-pic/eight.jpg);
+}
+
+.card-group .card .img9{
+    background-image: url(../learn-pic/nine.jpg);
+}
+
+
+.card-group .card h3 {
+padding: 0px 0.1em;
+    text-align: left;
+   font-family: mystc2;
+        font-size: 26px;
+    font-weight: 800;
+}
+.card-group .card p {
+  font-weight: 100;
+  font-size: 0;
+  transition: 0.2s ease-in;
+}
+
+.card-group .card a {
+  
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 39px;
+    background: #0d141e;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 11px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: mystc;
+}
+button.learn-more {
+  width: 18rem;
+    height: auto;
+    margin-bottom: 3px;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  margin: 0;
+  width: 5rem;
+  height: 5rem;
+  background: #282936;
+  border-radius: 3.625rem;
+}
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 1.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+padding: 1.2rem 0px;
+    margin: 0 0 0 3.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #fff;
+}
+
+
+
+
+
+text {
+font-family: mystc;
+}
+
+
+
+
+@media screen and max-width(768px){
+        .textchange{
+            padding-left: 10px;
+        }
+        
+    }
+ @media screen and min-width(769px){
+        .textchange{
+            padding-left: 100px;
+        }
+        
+    }
+
+
